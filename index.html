@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>web sayfasam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous">
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">VISAGE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav menu11">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#yeni">Yeni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bayan">Bayan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#erkek">Erkek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#giriş">Giriş </a>
+              <li><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                fill="currentColor"
+                class="bi bi-handbag"
+                viewBox="0 0 16 16"
+                style="color: white; margin-right: 10px; margin-top: 5px;"
+              >
+                <path
+                  d="M8 1a2 2 0 0 1 2 2v2H6V3a2 2 0 0 1 2-2m3 4V3a3 3 0 1 0-6 0v2H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 1 0 1 0V6z"
+                />
+              </svg></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <div class="kücükkutu" style="color: white;" >Yeni sezon ürünlerini keşfet!
+    <div>  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="megafon" viewBox="0 0 16 16"> 
+        <path d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0v-.214c-2.162-1.241-4.49-1.843-6.912-2.083l.405 2.712A1 1 0 0 1 5.51 15.1h-.548a1 1 0 0 1-.916-.599l-1.85-3.49-.202-.003A2.014 2.014 0 0 1 0 9V7a2.02 2.02 0 0 1 1.992-2.013 75 75 0 0 0 2.483-.075c3.043-.154 6.148-.849 8.525-2.199zm1 0v11a.5.5 0 0 0 1 0v-11a.5.5 0 0 0-1 0m-1 1.35c-2.344 1.205-5.209 1.842-8 2.033v4.233q.27.015.537.036c2.568.189 5.093.744 7.463 1.993zm-9 6.215v-4.13a95 95 0 0 1-1.992.052A1.02 1.02 0 0 0 1 7v2c0 .55.448 1.002 1.006 1.009A61 61 0 0 1 4 10.065m-.657.975 1.609 3.037.01.024h.548l-.002-.014-.443-2.966a68 68 0 0 0-1.722-.082z"/>
+      </svg></div>
+    </div>
+    
+
+    <div class="slider">
+      <div
+        id="carouselExampleControlsNoTouching"
+        class="carousel slide"
+        data-bs-touch="false"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active resimSlider ">
+            <img
+              src="resimler/pexels-alpyildizlar-15127553.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block f5">
+              <h6 style="color: aliceblue; font-weight: bold">www.vısage.com</h6>
+            </div>
+          </div>
+          <div class="carousel-item resimSlider ">
+            <img
+              src="resimler/pexels-alteredsnaps-15130854.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block f5">
+              <h6 style="color: aliceblue; font-weight: bold;">www.vısage.com</h6>
+            </div>
+          </div>
+          <div class="carousel-item resimSlider">
+            <img
+              src="resimler/pexels-didsss-2983364.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block f5 ">
+              <h6 style="color: aliceblue; font-weight: bold">www.vısage.com</h6>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev"
+          
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button "
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+
+      <section class="p-5yeni" id="yeni">
+        <div class="container">
+          <h6 class="f2">İLGİNİZİ ÇEKEBİLECEK YENİ ÜRÜNLER</h6>
+        </div>
+        <div class="card-group kart">
+          <div class="card shadow; yenikart">
+            <img src="resimler/07424727812-15-a7o.jpg" class="card-img-top " alt="...">
+            <div class="card-body shadow">
+              <h6 style="font-weight: bold;"class="card-title">Toscana Viskon Gri Sweat</h6> <br>
+              <p style="color: dimgray; font-weight: bold;">800,00 TL</p>
+            </div>
+          </div>
+          <div class="card shadow; yenikart">
+            <img src="resimler/07058700800-a4o.jpg" class="card-img-top" alt="...">
+            <div class="card-body shadow">
+              <h6 style="font-weight: bold;" class="card-title ">Pamuklu Kapüşonlu Sweatshirt</h6> <br>
+              <p style="color: dimgray; font-weight: bold;"class="card-text">760,00 TL</p>
+            </div>
+          </div>
+          <div class="card shadow; yenikart">
+            <img src="resimler/07069700829-a4o.jpg" class="card-img-top" alt="...">
+            <div class="card-body shadow">
+              <h6 style="font-weight: bold;"class="card-title">Desenli Kapüşonlu Sweatshirt</h6> <br>
+              <p style="color: dimgray; font-weight: bold;"class="card-text">1339,00 TL</p>
+            </div>
+          </div>
+          <div class="card shadow; yenikart">
+            <img src="resimler/07081187812-p.jpg" class="card-img-top" alt="...">
+            <div class="card-body shadow">
+              <h6 style="font-weight: bold;"class="card-title">Pamuklu Kapüşonlu Sweatshirt</h6> <br>
+              <p style="color: dimgray; font-weight: bold;"class="card-text">990,00 TL</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    <hr class="ayırma">
+    <div class="kargo"><h6>2000 TL ve ÜZERİ TÜM ALIŞVERİŞLERİNİZDE KARGO BEDEVA!!</h6>
+    </div>
+    <hr class="ayırma2">  
+    <br>
+    <section class="p-5yeni" id="bayan">
+      <div class="container">
+        <h4 class="f3">BAYAN</h4>
+      </div>
+      <div class="card-group  kart">
+        <div class="card shadow; yenikart">
+          <img src="resimler/01760187251-p.jpg" class="card-img-top " alt="...">
+          <div class="card-body shadow">
+            <h6 style="font-weight: bold;"class="card-title">Bej Kapüşonlu Hırka</h6> <br>
+            <p style="color: dimgray; font-weight: bold;">1500,00 TL</p>
+          </div>
+        </div>
+        <div class="card shadow; yenikart">
+          <img src="resimler/02150033812-p.jpg" class="card-img-top" alt="...">
+          <div class="card-body shadow">
+            <h6 style="font-weight: bold;" class="card-title ">Pamuklu Kapüşonlu Desenli Sweatshirt</h6> <br>
+            <p style="color: dimgray; font-weight: bold;"class="card-text">999,00 TL</p>
+          </div>
+        </div>
+        <div class="card yenikart">
+          <img src="resimler/07069700829-p.jpg" class="card-img-top" alt="...">
+          <div class="card-body shadow">
+            <h6 style="font-weight: bold;"class="card-title">Desenli Kapüşonlu Sweatshirt</h6> <br>
+            <p style="color: dimgray; font-weight: bold;"class="card-text">1299,00 TL</p>
+          </div>
+        </div>
+        <div class="card shadow; yenikart">
+          <img src="resimler/07069700605-p.jpg" class="card-img-top" alt="...">
+          <div class="card-body shadow">
+            <h6 style="font-weight: bold;"class="card-title">Pamuklu Elyaf Sweatshirt</h6> <br>
+            <p style="color: dimgray; font-weight: bold;"class="card-text">1199,00 TL</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <section class="p-5yeni" id="erkek">
+      <div class="container">
+        <h4 class="f4">ERKEK</h4>
+      </div>
+      <div class="card-group  kart">
+        <div class="card shadow; yenikart">
+          <img src="resimler/01562718800-a4o.jpg" class="card-img-top " alt="...">
+          <div class="card-body shadow">
+            <h6 style="font-weight: bold;"class="card-title">Blok Renkli Şişme Mont</h6> <br>
+            <p style="color: dimgray; font-weight: bold;">1700,00 TL</p>
+          </div>
+        </div>
+        <div class="card shadow; yenikart">
+          <img src="resimler/01576677800-a12o.jpg" class="card-img-top" alt="...">
+          <div class="card-body shadow">
+            <h6 style="font-weight: bold;" class="card-title ">Suni Deri Çeket</h6> <br>
+            <p style="color: dimgray; font-weight: bold;"class="card-text">1900,00 TL</p>
+          </div>
+        </div>
+        <div class="card yenikart">
+          <img src="resimler/05342223810-a3o.jpg" class="card-img-top" alt="...">
+          <div class="card-body shadow">
+            <h6 style="font-weight: bold;"class="card-title">Skater Jean</h6> <br>
+            <p style="color: dimgray; font-weight: bold;"class="card-text">1850,00 TL</p>
+          </div>
+        </div>
+        <div class="card shadow; yenikart">
+          <img src="resimler/05342666800-a4o.jpg" class="card-img-top" alt="...">
+          <div class="card-body shadow">
+            <h6 style="font-weight: bold;"class="card-title">Straight fit 90's Jean</h6> <br>
+            <p style="color: dimgray; font-weight: bold;"class="card-text">1250,00 TL</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+
+
+
+    <section class="p-3 giriş" id="giriş">
+      <div class="container">
+          <h4 class="f6 mb-2">GİRİŞ</h4>
+          <form action="" class="col-md-10   text-left m-auto">
+              <div class="row">
+                  <div class="form-group d-flex align-items-center mb-2">
+                      <label for="" class="col-3 col-md-2 mb-1 mb-md-0">Ad:</label>
+                      <input type="text" class="form-control col-md-8">
+                  </div>
+              
+                  <div class="form-group d-flex align-items-center mb-2">
+                      <label for="" class="col-3 col-md-2 mb-1 mb-md-0">Soyad:</label>
+                      <input type="text" class="form-control col-md-8">
+                  </div>
+              
+                  <div class="form-group d-flex align-items-center mb-2">
+                      <label for="" class="col-3 col-md-2 mb-1 mb-md-0">Email:</label>
+                      <input type="email" class="form-control col-md-8">
+                  </div>
+              
+                  <div class="form-group d-flex align-items-center mb-2">
+                      <label for="" class="col-3 col-md-2 mb-1 mb-md-0">Şifreniz:</label>
+                      <input type="password" class="form-control col-md-8">
+                  </div>
+              
+                  <div class="form-group">
+                      <button type="submit" class="col-md-2 btn btn-primary">GİRİŞ</button>
+                  </div>
+              </div>
+    </section>
+
+
+
+
+
+
+
+
+    
+     <div class="footer bg-dark text-light text-center">
+      <p class="align-middle p-5 mb-0">
+        <span>Tüm Hakları Saklıdır &copy; |2024 </span><br>
+        <span>Designed by <b>VISAGE</b></span>   
+      </p>
+     </div>
+  </body>
+</html>
